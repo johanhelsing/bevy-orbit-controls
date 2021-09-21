@@ -193,7 +193,7 @@ impl OrbitCameraPlugin {
     }
 }
 impl Plugin for OrbitCameraPlugin {
-    fn build(&self, app: &mut AppBuilder) {
+    fn build(&self, app: &mut App) {
         app.add_system(Self::emit_motion_events.system())
             .add_system(Self::mouse_motion_system.system())
             .add_system(Self::emit_zoom_events.system())

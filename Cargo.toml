@@ -21,4 +21,4 @@ harness = false
 test = false
 
 [dependencies]
-bevy = { version = "0.5.0", default-features = false, features = [ "render" ] }
+bevy = { git = "https://github.com/bevyengine/bevy", branch = "main", default-features = false, features = [ "render" ] }
