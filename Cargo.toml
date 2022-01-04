@@ -10,6 +10,7 @@ documentation = "https://docs.rs/bevy-orbit-controls/"
 description = "An orbit controls plugin for bevy."
 keywords = ["gamedev", "bevy", "3d", "camera", ]
 categories = ["game-engines", "game-development"]
+resolver = "2"
 
 [lib]
 name = "bevy_orbit_controls"
